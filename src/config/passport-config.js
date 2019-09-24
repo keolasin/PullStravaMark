@@ -12,7 +12,7 @@ module.exports = {
 
 
 
-    // uses local strategy, looks for props of 'username' and 'password' in req.body normally, so use option of usernameField instead
+    // uses 'strava' auth strategy, once authorized adds association to our unique User model
     passport.use(new StravaStrategy({
       clientID: process.env.STRAVA_CLIENT_ID,
       clientSecret: process.env.STRAVA_CLIENT_SECRET,
