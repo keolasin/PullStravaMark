@@ -1,0 +1,37 @@
+{
+  "name": "pullstravamark",
+  "version": "1.0.0",
+  "description": "Pulling strava api data for personal use",
+  "main": "index.js",
+  "scripts": {
+    "test": "export NODE_ENV=test&& jasmine",
+    "start": "node src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keolasin/PullStravaMark.git"
+  },
+  "keywords": [
+    "strava",
+    "activity",
+    "athlete"
+  ],
+  "author": "Matthew Reyes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/keolasin/PullStravaMark/issues"
+  },
+  "homepage": "https://github.com/keolasin/PullStravaMark#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.1.0",
+    "ejs": "^2.5.9",
+    "express": "^4.16.2",
+    "express-flash": "0.0.2",
+    "express-session": "^1.16.2",
+    "express-validator": "^5.0.2",
+    "passport": "^0.4.0",
+    "passport-strava": "^0.2.0"
+  }
+}
